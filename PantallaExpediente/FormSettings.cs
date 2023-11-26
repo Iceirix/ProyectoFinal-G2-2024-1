@@ -7,10 +7,12 @@ namespace PantallaExpediente
     public partial class FormSettings : Form
     {
         private Paciente paciente;
-        public FormSettings(Paciente paciente)
+        private FormPadre formPadre;
+        public FormSettings(FormPadre formPadre, Paciente paciente)
         {
             InitializeComponent();
             this.paciente = paciente;
+            this.formPadre = formPadre;
             cargarInfo();
             BloquearDatos();
 
@@ -152,7 +154,7 @@ namespace PantallaExpediente
                 paciente.Alimento = false;
             }
 
-
+            formPadre.actualizarNombre(paciente.Nombre);
         }
 
         private void btnBloquear_Click(object sender, System.EventArgs e)

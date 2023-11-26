@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Reflection.Emit;
 using System.Windows.Forms;
 using BiblioExpedientes;
 
@@ -17,12 +18,11 @@ namespace PantallaExpediente
             openChildForm(new FormHome());
             pacientes = new ArrayList();
             cargarPacientes();
-            verificarUsuario(usuario);
         }
 
         private Form activeForm = null;
         
-        private void openChildForm(Form childForm)
+        public void openChildForm(Form childForm)
         {
             if (activeForm != null)
                 activeForm.Close();
@@ -52,7 +52,7 @@ namespace PantallaExpediente
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
-            openChildForm(new FormSettings(paciente));
+            openChildForm(new FormSettings(this, paciente));
         }
 
         private void cargarPacientes()
@@ -214,7 +214,7 @@ namespace PantallaExpediente
         {
             formIniciarSesion.Close();
         }
-        private void verificarUsuario(Usuario usuario)
+        public void verificarUsuario(Usuario usuario)
         {
             for (int i = 0; i < pacientes.Count; i++)
             {
@@ -231,6 +231,17 @@ namespace PantallaExpediente
                     
                 }
                     
+            }
+        }
+        public void actualizarNombre(string nuevoTexto)
+        {
+            if (lbNombre.InvokeRequired)
+            {
+                lbNombre.Invoke(new Action(() => lbNombre.Text = nuevoTexto));
+            }
+            else
+            {
+                lbNombre.Text = nuevoTexto;
             }
         }
 

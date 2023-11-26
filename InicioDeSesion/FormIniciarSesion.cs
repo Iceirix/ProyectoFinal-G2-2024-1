@@ -11,7 +11,7 @@ namespace InicioDeSesion
     {
         private ArrayList usuarios;
         private byte bloquear, a;
-
+        FormPadre formPadre;
         public FormIniciarSesion()
         {
             InitializeComponent();
@@ -19,6 +19,7 @@ namespace InicioDeSesion
             a = 1;
             usuarios = new ArrayList();
             CargarUsuarios();
+
         }
         private void CargarUsuarios()
         {
@@ -38,7 +39,12 @@ namespace InicioDeSesion
                 if (txtbUser.Text == miUsuario.User && txtbPassword.Text == miUsuario.Password)
                 {
                     limpiarTxtbDisplay();
-                    FormPadre formPadre = new FormPadre(this, miUsuario);
+                    if (formPadre == null)
+                    {
+                        formPadre = new FormPadre(this, miUsuario);
+                    }
+                    formPadre.verificarUsuario(miUsuario);
+                    formPadre.openChildForm(new FormHome());
                     formPadre.Show();
                     a = 1;
                     Hide();
