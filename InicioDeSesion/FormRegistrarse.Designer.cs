@@ -237,6 +237,7 @@
             this.Opacity = 0.97D;
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Enter += new System.EventHandler(this.FormRegistrarse_Enter);
             this.ResumeLayout(false);
             this.PerformLayout();
 

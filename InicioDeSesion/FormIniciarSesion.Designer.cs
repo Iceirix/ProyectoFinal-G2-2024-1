@@ -28,15 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormIniciarSesion));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnRegistrarse = new System.Windows.Forms.Button();
             this.lbEresNuevo = new System.Windows.Forms.Label();
+            this.ptbInicio = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtbUser = new System.Windows.Forms.TextBox();
             this.txtbPassword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnIniciar = new System.Windows.Forms.Button();
-            this.ptbInicio = new System.Windows.Forms.PictureBox();
-            this.btnRegistrarse = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbInicio)).BeginInit();
             this.SuspendLayout();
@@ -53,6 +54,21 @@
             this.panel1.Size = new System.Drawing.Size(445, 611);
             this.panel1.TabIndex = 0;
             // 
+            // btnRegistrarse
+            // 
+            this.btnRegistrarse.BackColor = System.Drawing.Color.Transparent;
+            this.btnRegistrarse.FlatAppearance.BorderSize = 0;
+            this.btnRegistrarse.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrarse.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnRegistrarse.Location = new System.Drawing.Point(165, 350);
+            this.btnRegistrarse.Margin = new System.Windows.Forms.Padding(0);
+            this.btnRegistrarse.Name = "btnRegistrarse";
+            this.btnRegistrarse.Size = new System.Drawing.Size(112, 41);
+            this.btnRegistrarse.TabIndex = 2;
+            this.btnRegistrarse.Text = "Registrate";
+            this.btnRegistrarse.UseVisualStyleBackColor = false;
+            this.btnRegistrarse.Click += new System.EventHandler(this.btnRegistrarse_Click);
+            // 
             // lbEresNuevo
             // 
             this.lbEresNuevo.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -65,6 +81,17 @@
             this.lbEresNuevo.Size = new System.Drawing.Size(303, 56);
             this.lbEresNuevo.TabIndex = 1;
             this.lbEresNuevo.Text = "Eres nuevo?";
+            // 
+            // ptbInicio
+            // 
+            this.ptbInicio.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ptbInicio.Image = global::InicioDeSesion.Properties.Resources.pexels_anna_shvets_3786157;
+            this.ptbInicio.Location = new System.Drawing.Point(0, 0);
+            this.ptbInicio.Name = "ptbInicio";
+            this.ptbInicio.Size = new System.Drawing.Size(445, 611);
+            this.ptbInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbInicio.TabIndex = 4;
+            this.ptbInicio.TabStop = false;
             // 
             // label1
             // 
@@ -132,32 +159,6 @@
             this.btnIniciar.UseVisualStyleBackColor = true;
             this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
             // 
-            // ptbInicio
-            // 
-            this.ptbInicio.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ptbInicio.Image = global::InicioDeSesion.Properties.Resources.pexels_anna_shvets_3786157;
-            this.ptbInicio.Location = new System.Drawing.Point(0, 0);
-            this.ptbInicio.Name = "ptbInicio";
-            this.ptbInicio.Size = new System.Drawing.Size(445, 611);
-            this.ptbInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptbInicio.TabIndex = 4;
-            this.ptbInicio.TabStop = false;
-            // 
-            // btnRegistrarse
-            // 
-            this.btnRegistrarse.BackColor = System.Drawing.Color.Transparent;
-            this.btnRegistrarse.FlatAppearance.BorderSize = 0;
-            this.btnRegistrarse.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarse.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnRegistrarse.Location = new System.Drawing.Point(165, 350);
-            this.btnRegistrarse.Margin = new System.Windows.Forms.Padding(0);
-            this.btnRegistrarse.Name = "btnRegistrarse";
-            this.btnRegistrarse.Size = new System.Drawing.Size(112, 41);
-            this.btnRegistrarse.TabIndex = 2;
-            this.btnRegistrarse.Text = "Registrate";
-            this.btnRegistrarse.UseVisualStyleBackColor = false;
-            this.btnRegistrarse.Click += new System.EventHandler(this.btnRegistrarse_Click);
-            // 
             // FormIniciarSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -170,6 +171,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtbPassword);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(1100, 650);
             this.Name = "FormIniciarSesion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

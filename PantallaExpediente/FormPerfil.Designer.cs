@@ -71,18 +71,23 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            this.lbFracturas = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.lbCirugias = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.lbTransfusiones = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
-            this.lbHospitalizacionesPrevias = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
-            this.lbEnfermedadesPrevias = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
+            this.panelEnfermedadesPrevias = new System.Windows.Forms.Panel();
+            this.lbEnfermedadesPrevias = new System.Windows.Forms.Label();
+            this.panelFracturas = new System.Windows.Forms.Panel();
+            this.lbFracturas = new System.Windows.Forms.Label();
+            this.panelCirugias = new System.Windows.Forms.Panel();
+            this.lbCirugias = new System.Windows.Forms.Label();
+            this.panelTransfusiones = new System.Windows.Forms.Panel();
+            this.lbTransfusiones = new System.Windows.Forms.Label();
+            this.panelHospitalizacionesPrevias = new System.Windows.Forms.Panel();
+            this.lbHospitalizacionesPrevias = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label25 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -99,26 +104,21 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.label30 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.lbAntecedentesHeredofamiliares = new System.Windows.Forms.Label();
-            this.panelEnfermedadesPrevias = new System.Windows.Forms.Panel();
-            this.panelHospitalizacionesPrevias = new System.Windows.Forms.Panel();
-            this.panelTransfusiones = new System.Windows.Forms.Panel();
-            this.panelCirugias = new System.Windows.Forms.Panel();
-            this.panelFracturas = new System.Windows.Forms.Panel();
             this.panelAntecedentesHeredoFamiliares = new System.Windows.Forms.Panel();
+            this.lbAntecedentesHeredofamiliares = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panelEnfermedadesPrevias.SuspendLayout();
+            this.panelFracturas.SuspendLayout();
+            this.panelCirugias.SuspendLayout();
+            this.panelTransfusiones.SuspendLayout();
+            this.panelHospitalizacionesPrevias.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.panelEnfermedadesPrevias.SuspendLayout();
-            this.panelHospitalizacionesPrevias.SuspendLayout();
-            this.panelTransfusiones.SuspendLayout();
-            this.panelCirugias.SuspendLayout();
-            this.panelFracturas.SuspendLayout();
             this.panelAntecedentesHeredoFamiliares.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -615,17 +615,6 @@
             this.label28.Text = "ANTECEDENTES PERSONALES PATOLÓGICOS";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lbFracturas
-            // 
-            this.lbFracturas.AutoSize = true;
-            this.lbFracturas.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbFracturas.Location = new System.Drawing.Point(6, 9);
-            this.lbFracturas.Name = "lbFracturas";
-            this.lbFracturas.Size = new System.Drawing.Size(78, 17);
-            this.lbFracturas.TabIndex = 0;
-            this.lbFracturas.Text = "FRACTURAS";
-            this.lbFracturas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // label29
             // 
             this.label29.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -635,17 +624,6 @@
             this.label29.TabIndex = 0;
             this.label29.Text = "FRACTURAS";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lbCirugias
-            // 
-            this.lbCirugias.AutoSize = true;
-            this.lbCirugias.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCirugias.Location = new System.Drawing.Point(6, 10);
-            this.lbCirugias.Name = "lbCirugias";
-            this.lbCirugias.Size = new System.Drawing.Size(67, 17);
-            this.lbCirugias.TabIndex = 0;
-            this.lbCirugias.Text = "CIRUGIAS";
-            this.lbCirugias.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label31
             // 
@@ -657,17 +635,6 @@
             this.label31.Text = "CIRUGIAS";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lbTransfusiones
-            // 
-            this.lbTransfusiones.AutoSize = true;
-            this.lbTransfusiones.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTransfusiones.Location = new System.Drawing.Point(6, 13);
-            this.lbTransfusiones.Name = "lbTransfusiones";
-            this.lbTransfusiones.Size = new System.Drawing.Size(103, 17);
-            this.lbTransfusiones.TabIndex = 0;
-            this.lbTransfusiones.Text = "TRANSFUSIONES";
-            this.lbTransfusiones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // label33
             // 
             this.label33.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -677,17 +644,6 @@
             this.label33.TabIndex = 0;
             this.label33.Text = "TRANSFUSIONES";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lbHospitalizacionesPrevias
-            // 
-            this.lbHospitalizacionesPrevias.AutoSize = true;
-            this.lbHospitalizacionesPrevias.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbHospitalizacionesPrevias.Location = new System.Drawing.Point(6, 10);
-            this.lbHospitalizacionesPrevias.Name = "lbHospitalizacionesPrevias";
-            this.lbHospitalizacionesPrevias.Size = new System.Drawing.Size(185, 17);
-            this.lbHospitalizacionesPrevias.TabIndex = 0;
-            this.lbHospitalizacionesPrevias.Text = "HOSPITALIZACIONES PREVIAS";
-            this.lbHospitalizacionesPrevias.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label35
             // 
@@ -710,17 +666,6 @@
             this.label36.Text = "POLEN";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lbEnfermedadesPrevias
-            // 
-            this.lbEnfermedadesPrevias.AutoSize = true;
-            this.lbEnfermedadesPrevias.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbEnfermedadesPrevias.Location = new System.Drawing.Point(6, 6);
-            this.lbEnfermedadesPrevias.Name = "lbEnfermedadesPrevias";
-            this.lbEnfermedadesPrevias.Size = new System.Drawing.Size(160, 17);
-            this.lbEnfermedadesPrevias.TabIndex = 0;
-            this.lbEnfermedadesPrevias.Text = "ENFERMEDADES PREVIAS";
-            this.lbEnfermedadesPrevias.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // label37
             // 
             this.label37.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -740,6 +685,106 @@
             this.label38.Size = new System.Drawing.Size(50, 17);
             this.label38.TabIndex = 0;
             this.label38.Text = "POLEN";
+            // 
+            // panelEnfermedadesPrevias
+            // 
+            this.panelEnfermedadesPrevias.AutoScroll = true;
+            this.panelEnfermedadesPrevias.Controls.Add(this.lbEnfermedadesPrevias);
+            this.panelEnfermedadesPrevias.Location = new System.Drawing.Point(42, 135);
+            this.panelEnfermedadesPrevias.Name = "panelEnfermedadesPrevias";
+            this.panelEnfermedadesPrevias.Size = new System.Drawing.Size(224, 65);
+            this.panelEnfermedadesPrevias.TabIndex = 1;
+            // 
+            // lbEnfermedadesPrevias
+            // 
+            this.lbEnfermedadesPrevias.AutoSize = true;
+            this.lbEnfermedadesPrevias.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbEnfermedadesPrevias.Location = new System.Drawing.Point(6, 6);
+            this.lbEnfermedadesPrevias.Name = "lbEnfermedadesPrevias";
+            this.lbEnfermedadesPrevias.Size = new System.Drawing.Size(160, 17);
+            this.lbEnfermedadesPrevias.TabIndex = 0;
+            this.lbEnfermedadesPrevias.Text = "ENFERMEDADES PREVIAS";
+            this.lbEnfermedadesPrevias.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panelFracturas
+            // 
+            this.panelFracturas.AutoScroll = true;
+            this.panelFracturas.Controls.Add(this.lbFracturas);
+            this.panelFracturas.Location = new System.Drawing.Point(42, 543);
+            this.panelFracturas.Name = "panelFracturas";
+            this.panelFracturas.Size = new System.Drawing.Size(224, 67);
+            this.panelFracturas.TabIndex = 2;
+            // 
+            // lbFracturas
+            // 
+            this.lbFracturas.AutoSize = true;
+            this.lbFracturas.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbFracturas.Location = new System.Drawing.Point(6, 9);
+            this.lbFracturas.Name = "lbFracturas";
+            this.lbFracturas.Size = new System.Drawing.Size(78, 17);
+            this.lbFracturas.TabIndex = 0;
+            this.lbFracturas.Text = "FRACTURAS";
+            this.lbFracturas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panelCirugias
+            // 
+            this.panelCirugias.AutoScroll = true;
+            this.panelCirugias.Controls.Add(this.lbCirugias);
+            this.panelCirugias.Location = new System.Drawing.Point(42, 439);
+            this.panelCirugias.Name = "panelCirugias";
+            this.panelCirugias.Size = new System.Drawing.Size(224, 67);
+            this.panelCirugias.TabIndex = 2;
+            // 
+            // lbCirugias
+            // 
+            this.lbCirugias.AutoSize = true;
+            this.lbCirugias.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCirugias.Location = new System.Drawing.Point(6, 10);
+            this.lbCirugias.Name = "lbCirugias";
+            this.lbCirugias.Size = new System.Drawing.Size(67, 17);
+            this.lbCirugias.TabIndex = 0;
+            this.lbCirugias.Text = "CIRUGIAS";
+            this.lbCirugias.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panelTransfusiones
+            // 
+            this.panelTransfusiones.AutoScroll = true;
+            this.panelTransfusiones.Controls.Add(this.lbTransfusiones);
+            this.panelTransfusiones.Location = new System.Drawing.Point(42, 330);
+            this.panelTransfusiones.Name = "panelTransfusiones";
+            this.panelTransfusiones.Size = new System.Drawing.Size(224, 67);
+            this.panelTransfusiones.TabIndex = 2;
+            // 
+            // lbTransfusiones
+            // 
+            this.lbTransfusiones.AutoSize = true;
+            this.lbTransfusiones.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTransfusiones.Location = new System.Drawing.Point(6, 13);
+            this.lbTransfusiones.Name = "lbTransfusiones";
+            this.lbTransfusiones.Size = new System.Drawing.Size(103, 17);
+            this.lbTransfusiones.TabIndex = 0;
+            this.lbTransfusiones.Text = "TRANSFUSIONES";
+            this.lbTransfusiones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panelHospitalizacionesPrevias
+            // 
+            this.panelHospitalizacionesPrevias.AutoScroll = true;
+            this.panelHospitalizacionesPrevias.Controls.Add(this.lbHospitalizacionesPrevias);
+            this.panelHospitalizacionesPrevias.Location = new System.Drawing.Point(42, 240);
+            this.panelHospitalizacionesPrevias.Name = "panelHospitalizacionesPrevias";
+            this.panelHospitalizacionesPrevias.Size = new System.Drawing.Size(224, 67);
+            this.panelHospitalizacionesPrevias.TabIndex = 2;
+            // 
+            // lbHospitalizacionesPrevias
+            // 
+            this.lbHospitalizacionesPrevias.AutoSize = true;
+            this.lbHospitalizacionesPrevias.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbHospitalizacionesPrevias.Location = new System.Drawing.Point(6, 10);
+            this.lbHospitalizacionesPrevias.Name = "lbHospitalizacionesPrevias";
+            this.lbHospitalizacionesPrevias.Size = new System.Drawing.Size(185, 17);
+            this.lbHospitalizacionesPrevias.TabIndex = 0;
+            this.lbHospitalizacionesPrevias.Text = "HOSPITALIZACIONES PREVIAS";
+            this.lbHospitalizacionesPrevias.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // panel6
             // 
@@ -915,6 +960,15 @@
             this.label32.Text = "ANTECEDENTES HEREDOFAMILIARES";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // panelAntecedentesHeredoFamiliares
+            // 
+            this.panelAntecedentesHeredoFamiliares.AutoScroll = true;
+            this.panelAntecedentesHeredoFamiliares.Controls.Add(this.lbAntecedentesHeredofamiliares);
+            this.panelAntecedentesHeredoFamiliares.Location = new System.Drawing.Point(37, 100);
+            this.panelAntecedentesHeredoFamiliares.Name = "panelAntecedentesHeredoFamiliares";
+            this.panelAntecedentesHeredoFamiliares.Size = new System.Drawing.Size(200, 194);
+            this.panelAntecedentesHeredoFamiliares.TabIndex = 1;
+            // 
             // lbAntecedentesHeredofamiliares
             // 
             this.lbAntecedentesHeredofamiliares.AutoSize = true;
@@ -925,60 +979,6 @@
             this.lbAntecedentesHeredofamiliares.TabIndex = 0;
             this.lbAntecedentesHeredofamiliares.Text = "ENFERMEDADES";
             this.lbAntecedentesHeredofamiliares.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // panelEnfermedadesPrevias
-            // 
-            this.panelEnfermedadesPrevias.AutoScroll = true;
-            this.panelEnfermedadesPrevias.Controls.Add(this.lbEnfermedadesPrevias);
-            this.panelEnfermedadesPrevias.Location = new System.Drawing.Point(42, 135);
-            this.panelEnfermedadesPrevias.Name = "panelEnfermedadesPrevias";
-            this.panelEnfermedadesPrevias.Size = new System.Drawing.Size(224, 65);
-            this.panelEnfermedadesPrevias.TabIndex = 1;
-            // 
-            // panelHospitalizacionesPrevias
-            // 
-            this.panelHospitalizacionesPrevias.AutoScroll = true;
-            this.panelHospitalizacionesPrevias.Controls.Add(this.lbHospitalizacionesPrevias);
-            this.panelHospitalizacionesPrevias.Location = new System.Drawing.Point(42, 240);
-            this.panelHospitalizacionesPrevias.Name = "panelHospitalizacionesPrevias";
-            this.panelHospitalizacionesPrevias.Size = new System.Drawing.Size(224, 67);
-            this.panelHospitalizacionesPrevias.TabIndex = 2;
-            // 
-            // panelTransfusiones
-            // 
-            this.panelTransfusiones.AutoScroll = true;
-            this.panelTransfusiones.Controls.Add(this.lbTransfusiones);
-            this.panelTransfusiones.Location = new System.Drawing.Point(42, 330);
-            this.panelTransfusiones.Name = "panelTransfusiones";
-            this.panelTransfusiones.Size = new System.Drawing.Size(224, 67);
-            this.panelTransfusiones.TabIndex = 2;
-            // 
-            // panelCirugias
-            // 
-            this.panelCirugias.AutoScroll = true;
-            this.panelCirugias.Controls.Add(this.lbCirugias);
-            this.panelCirugias.Location = new System.Drawing.Point(42, 439);
-            this.panelCirugias.Name = "panelCirugias";
-            this.panelCirugias.Size = new System.Drawing.Size(224, 67);
-            this.panelCirugias.TabIndex = 2;
-            // 
-            // panelFracturas
-            // 
-            this.panelFracturas.AutoScroll = true;
-            this.panelFracturas.Controls.Add(this.lbFracturas);
-            this.panelFracturas.Location = new System.Drawing.Point(42, 543);
-            this.panelFracturas.Name = "panelFracturas";
-            this.panelFracturas.Size = new System.Drawing.Size(224, 67);
-            this.panelFracturas.TabIndex = 2;
-            // 
-            // panelAntecedentesHeredoFamiliares
-            // 
-            this.panelAntecedentesHeredoFamiliares.AutoScroll = true;
-            this.panelAntecedentesHeredoFamiliares.Controls.Add(this.lbAntecedentesHeredofamiliares);
-            this.panelAntecedentesHeredoFamiliares.Location = new System.Drawing.Point(37, 100);
-            this.panelAntecedentesHeredoFamiliares.Name = "panelAntecedentesHeredoFamiliares";
-            this.panelAntecedentesHeredoFamiliares.Size = new System.Drawing.Size(200, 194);
-            this.panelAntecedentesHeredoFamiliares.TabIndex = 1;
             // 
             // FormPerfil
             // 
@@ -1003,20 +1003,20 @@
             this.panel5.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            this.panelEnfermedadesPrevias.ResumeLayout(false);
+            this.panelEnfermedadesPrevias.PerformLayout();
+            this.panelFracturas.ResumeLayout(false);
+            this.panelFracturas.PerformLayout();
+            this.panelCirugias.ResumeLayout(false);
+            this.panelCirugias.PerformLayout();
+            this.panelTransfusiones.ResumeLayout(false);
+            this.panelTransfusiones.PerformLayout();
+            this.panelHospitalizacionesPrevias.ResumeLayout(false);
+            this.panelHospitalizacionesPrevias.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            this.panelEnfermedadesPrevias.ResumeLayout(false);
-            this.panelEnfermedadesPrevias.PerformLayout();
-            this.panelHospitalizacionesPrevias.ResumeLayout(false);
-            this.panelHospitalizacionesPrevias.PerformLayout();
-            this.panelTransfusiones.ResumeLayout(false);
-            this.panelTransfusiones.PerformLayout();
-            this.panelCirugias.ResumeLayout(false);
-            this.panelCirugias.PerformLayout();
-            this.panelFracturas.ResumeLayout(false);
-            this.panelFracturas.PerformLayout();
             this.panelAntecedentesHeredoFamiliares.ResumeLayout(false);
             this.panelAntecedentesHeredoFamiliares.PerformLayout();
             this.ResumeLayout(false);

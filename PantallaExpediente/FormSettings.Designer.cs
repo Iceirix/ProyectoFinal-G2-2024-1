@@ -82,49 +82,49 @@
             this.rdbLatexNo = new System.Windows.Forms.RadioButton();
             this.label15 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.btnQuitarEnfermedad = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
             this.txtbAntecedentesHeredofamiliares = new System.Windows.Forms.TextBox();
+            this.panelAntecedentesHeredofamiliares = new System.Windows.Forms.Panel();
+            this.lbAntecedentesHeredofamiliares = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label23 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
+            this.panelFracturas = new System.Windows.Forms.Panel();
+            this.lbFracturas = new System.Windows.Forms.Label();
+            this.panelCirugias = new System.Windows.Forms.Panel();
+            this.lbCirugias = new System.Windows.Forms.Label();
+            this.panelTransfusiones = new System.Windows.Forms.Panel();
+            this.lbTransfusiones = new System.Windows.Forms.Label();
+            this.panelHospitalizacionesPrevias = new System.Windows.Forms.Panel();
+            this.lbHospitalizacionesPrevias = new System.Windows.Forms.Label();
+            this.panelEnfermedadesPrevias = new System.Windows.Forms.Panel();
+            this.lbEnfermedadesPrevias = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.panelAntecedentesPersonalesPatologicos = new System.Windows.Forms.Panel();
+            this.btnAgregarFracuras = new System.Windows.Forms.Button();
+            this.btnQuitarEnfermedadPrevia = new System.Windows.Forms.Button();
+            this.btnAgregarCirugia = new System.Windows.Forms.Button();
             this.txtbEnfermedadPrevia = new System.Windows.Forms.TextBox();
+            this.btnAgregarTransfusion = new System.Windows.Forms.Button();
+            this.txtbHospitalizacionPrevia = new System.Windows.Forms.TextBox();
+            this.btnAgregarHospitalizacionPrevia = new System.Windows.Forms.Button();
+            this.txtbTransfusion = new System.Windows.Forms.TextBox();
+            this.btnAgregarEnfermedadPrevia = new System.Windows.Forms.Button();
+            this.txtbCirugia = new System.Windows.Forms.TextBox();
+            this.btnQuitarFractura = new System.Windows.Forms.Button();
+            this.txtbFractura = new System.Windows.Forms.TextBox();
+            this.btnQuitarCirugia = new System.Windows.Forms.Button();
+            this.btnQuitarHospitalizacion = new System.Windows.Forms.Button();
+            this.btnQuitarTransfusion = new System.Windows.Forms.Button();
             this.label35 = new System.Windows.Forms.Label();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.label36 = new System.Windows.Forms.Label();
-            this.lbAntecedentesHeredofamiliares = new System.Windows.Forms.Label();
-            this.panelAntecedentesHeredofamiliares = new System.Windows.Forms.Panel();
-            this.btnQuitarEnfermedad = new System.Windows.Forms.Button();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.panelEnfermedadesPrevias = new System.Windows.Forms.Panel();
-            this.lbEnfermedadesPrevias = new System.Windows.Forms.Label();
-            this.btnQuitarEnfermedadPrevia = new System.Windows.Forms.Button();
-            this.panelHospitalizacionesPrevias = new System.Windows.Forms.Panel();
-            this.lbHospitalizacionesPrevias = new System.Windows.Forms.Label();
-            this.panelTransfusiones = new System.Windows.Forms.Panel();
-            this.lbTransfusiones = new System.Windows.Forms.Label();
-            this.panelCirugias = new System.Windows.Forms.Panel();
-            this.lbCirugias = new System.Windows.Forms.Label();
-            this.panelFracturas = new System.Windows.Forms.Panel();
-            this.lbFracturas = new System.Windows.Forms.Label();
-            this.btnAgregarEnfermedadPrevia = new System.Windows.Forms.Button();
-            this.txtbHospitalizacionPrevia = new System.Windows.Forms.TextBox();
-            this.btnQuitarHospitalizacion = new System.Windows.Forms.Button();
-            this.btnAgregarHospitalizacionPrevia = new System.Windows.Forms.Button();
-            this.label37 = new System.Windows.Forms.Label();
-            this.txtbTransfusion = new System.Windows.Forms.TextBox();
-            this.btnQuitarTransfusion = new System.Windows.Forms.Button();
-            this.btnAgregarTransfusion = new System.Windows.Forms.Button();
-            this.txtbCirugia = new System.Windows.Forms.TextBox();
-            this.btnQuitarCirugia = new System.Windows.Forms.Button();
-            this.btnAgregarCirugia = new System.Windows.Forms.Button();
-            this.txtbFractura = new System.Windows.Forms.TextBox();
-            this.btnQuitarFractura = new System.Windows.Forms.Button();
-            this.btnAgregarFracuras = new System.Windows.Forms.Button();
-            this.panelAntecedentesPersonalesPatologicos = new System.Windows.Forms.Panel();
             this.btnBloquear = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label34 = new System.Windows.Forms.Label();
@@ -151,13 +151,13 @@
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panelAntecedentesHeredofamiliares.SuspendLayout();
-            this.panelEnfermedadesPrevias.SuspendLayout();
-            this.panelHospitalizacionesPrevias.SuspendLayout();
-            this.panelTransfusiones.SuspendLayout();
-            this.panelCirugias.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panelFracturas.SuspendLayout();
+            this.panelCirugias.SuspendLayout();
+            this.panelTransfusiones.SuspendLayout();
+            this.panelHospitalizacionesPrevias.SuspendLayout();
+            this.panelEnfermedadesPrevias.SuspendLayout();
             this.panelAntecedentesPersonalesPatologicos.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panelSignosVitales.SuspendLayout();
@@ -716,6 +716,28 @@
             this.panel3.Size = new System.Drawing.Size(535, 366);
             this.panel3.TabIndex = 3;
             // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.Location = new System.Drawing.Point(205, 268);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(107, 34);
+            this.btnAgregar.TabIndex = 5;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // btnQuitarEnfermedad
+            // 
+            this.btnQuitarEnfermedad.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuitarEnfermedad.Location = new System.Drawing.Point(273, 87);
+            this.btnQuitarEnfermedad.Name = "btnQuitarEnfermedad";
+            this.btnQuitarEnfermedad.Size = new System.Drawing.Size(167, 34);
+            this.btnQuitarEnfermedad.TabIndex = 5;
+            this.btnQuitarEnfermedad.Text = "Quitar Enfermedad";
+            this.btnQuitarEnfermedad.UseVisualStyleBackColor = true;
+            this.btnQuitarEnfermedad.Click += new System.EventHandler(this.btnQuitarEnfermedad_Click);
+            // 
             // label20
             // 
             this.label20.AutoSize = true;
@@ -733,6 +755,25 @@
             this.txtbAntecedentesHeredofamiliares.Name = "txtbAntecedentesHeredofamiliares";
             this.txtbAntecedentesHeredofamiliares.Size = new System.Drawing.Size(230, 21);
             this.txtbAntecedentesHeredofamiliares.TabIndex = 2;
+            // 
+            // panelAntecedentesHeredofamiliares
+            // 
+            this.panelAntecedentesHeredofamiliares.AutoScroll = true;
+            this.panelAntecedentesHeredofamiliares.Controls.Add(this.lbAntecedentesHeredofamiliares);
+            this.panelAntecedentesHeredofamiliares.Location = new System.Drawing.Point(16, 64);
+            this.panelAntecedentesHeredofamiliares.Name = "panelAntecedentesHeredofamiliares";
+            this.panelAntecedentesHeredofamiliares.Size = new System.Drawing.Size(200, 104);
+            this.panelAntecedentesHeredofamiliares.TabIndex = 3;
+            // 
+            // lbAntecedentesHeredofamiliares
+            // 
+            this.lbAntecedentesHeredofamiliares.AutoSize = true;
+            this.lbAntecedentesHeredofamiliares.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAntecedentesHeredofamiliares.Location = new System.Drawing.Point(15, 12);
+            this.lbAntecedentesHeredofamiliares.Name = "lbAntecedentesHeredofamiliares";
+            this.lbAntecedentesHeredofamiliares.Size = new System.Drawing.Size(106, 17);
+            this.lbAntecedentesHeredofamiliares.TabIndex = 1;
+            this.lbAntecedentesHeredofamiliares.Text = "ENFERMEDADES";
             // 
             // label16
             // 
@@ -794,172 +835,24 @@
             this.label19.TabIndex = 1;
             this.label19.Text = "TRANSFUSIONES";
             // 
-            // label18
+            // panelFracturas
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(31, 343);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(185, 17);
-            this.label18.TabIndex = 1;
-            this.label18.Text = "HOSPITALIZACIONES PREVIAS";
+            this.panelFracturas.AutoScroll = true;
+            this.panelFracturas.Controls.Add(this.lbFracturas);
+            this.panelFracturas.Location = new System.Drawing.Point(16, 1003);
+            this.panelFracturas.Name = "panelFracturas";
+            this.panelFracturas.Size = new System.Drawing.Size(211, 104);
+            this.panelFracturas.TabIndex = 3;
             // 
-            // label17
+            // lbFracturas
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(30, 33);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(160, 17);
-            this.label17.TabIndex = 1;
-            this.label17.Text = "ENFERMEDADES PREVIAS";
-            // 
-            // txtbEnfermedadPrevia
-            // 
-            this.txtbEnfermedadPrevia.Location = new System.Drawing.Point(18, 106);
-            this.txtbEnfermedadPrevia.Name = "txtbEnfermedadPrevia";
-            this.txtbEnfermedadPrevia.Size = new System.Drawing.Size(230, 21);
-            this.txtbEnfermedadPrevia.TabIndex = 2;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(1368, 75);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(174, 19);
-            this.label35.TabIndex = 1;
-            this.label35.Text = "Actulizar información";
-            // 
-            // btnActualizar
-            // 
-            this.btnActualizar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizar.Location = new System.Drawing.Point(1412, 121);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(92, 34);
-            this.btnActualizar.TabIndex = 4;
-            this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.UseVisualStyleBackColor = true;
-            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(941, 75);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(291, 19);
-            this.label36.TabIndex = 1;
-            this.label36.Text = "Desbloquear/Bloquear Modificación";
-            // 
-            // lbAntecedentesHeredofamiliares
-            // 
-            this.lbAntecedentesHeredofamiliares.AutoSize = true;
-            this.lbAntecedentesHeredofamiliares.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAntecedentesHeredofamiliares.Location = new System.Drawing.Point(15, 12);
-            this.lbAntecedentesHeredofamiliares.Name = "lbAntecedentesHeredofamiliares";
-            this.lbAntecedentesHeredofamiliares.Size = new System.Drawing.Size(106, 17);
-            this.lbAntecedentesHeredofamiliares.TabIndex = 1;
-            this.lbAntecedentesHeredofamiliares.Text = "ENFERMEDADES";
-            // 
-            // panelAntecedentesHeredofamiliares
-            // 
-            this.panelAntecedentesHeredofamiliares.AutoScroll = true;
-            this.panelAntecedentesHeredofamiliares.Controls.Add(this.lbAntecedentesHeredofamiliares);
-            this.panelAntecedentesHeredofamiliares.Location = new System.Drawing.Point(16, 64);
-            this.panelAntecedentesHeredofamiliares.Name = "panelAntecedentesHeredofamiliares";
-            this.panelAntecedentesHeredofamiliares.Size = new System.Drawing.Size(200, 104);
-            this.panelAntecedentesHeredofamiliares.TabIndex = 3;
-            // 
-            // btnQuitarEnfermedad
-            // 
-            this.btnQuitarEnfermedad.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuitarEnfermedad.Location = new System.Drawing.Point(273, 87);
-            this.btnQuitarEnfermedad.Name = "btnQuitarEnfermedad";
-            this.btnQuitarEnfermedad.Size = new System.Drawing.Size(167, 34);
-            this.btnQuitarEnfermedad.TabIndex = 5;
-            this.btnQuitarEnfermedad.Text = "Quitar Enfermedad";
-            this.btnQuitarEnfermedad.UseVisualStyleBackColor = true;
-            this.btnQuitarEnfermedad.Click += new System.EventHandler(this.btnQuitarEnfermedad_Click);
-            // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(205, 268);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(107, 34);
-            this.btnAgregar.TabIndex = 5;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-            // 
-            // panelEnfermedadesPrevias
-            // 
-            this.panelEnfermedadesPrevias.AutoScroll = true;
-            this.panelEnfermedadesPrevias.Controls.Add(this.lbEnfermedadesPrevias);
-            this.panelEnfermedadesPrevias.Location = new System.Drawing.Point(16, 78);
-            this.panelEnfermedadesPrevias.Name = "panelEnfermedadesPrevias";
-            this.panelEnfermedadesPrevias.Size = new System.Drawing.Size(211, 104);
-            this.panelEnfermedadesPrevias.TabIndex = 3;
-            // 
-            // lbEnfermedadesPrevias
-            // 
-            this.lbEnfermedadesPrevias.AutoSize = true;
-            this.lbEnfermedadesPrevias.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbEnfermedadesPrevias.Location = new System.Drawing.Point(15, 12);
-            this.lbEnfermedadesPrevias.Name = "lbEnfermedadesPrevias";
-            this.lbEnfermedadesPrevias.Size = new System.Drawing.Size(160, 17);
-            this.lbEnfermedadesPrevias.TabIndex = 1;
-            this.lbEnfermedadesPrevias.Text = "ENFERMEDADES PREVIAS";
-            // 
-            // btnQuitarEnfermedadPrevia
-            // 
-            this.btnQuitarEnfermedadPrevia.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuitarEnfermedadPrevia.Location = new System.Drawing.Point(51, 24);
-            this.btnQuitarEnfermedadPrevia.Name = "btnQuitarEnfermedadPrevia";
-            this.btnQuitarEnfermedadPrevia.Size = new System.Drawing.Size(167, 34);
-            this.btnQuitarEnfermedadPrevia.TabIndex = 5;
-            this.btnQuitarEnfermedadPrevia.Text = "Quitar Enfermedad";
-            this.btnQuitarEnfermedadPrevia.UseVisualStyleBackColor = true;
-            this.btnQuitarEnfermedadPrevia.Click += new System.EventHandler(this.btnQuitarEnfermedadPrevia_Click);
-            // 
-            // panelHospitalizacionesPrevias
-            // 
-            this.panelHospitalizacionesPrevias.AutoScroll = true;
-            this.panelHospitalizacionesPrevias.Controls.Add(this.lbHospitalizacionesPrevias);
-            this.panelHospitalizacionesPrevias.Location = new System.Drawing.Point(16, 305);
-            this.panelHospitalizacionesPrevias.Name = "panelHospitalizacionesPrevias";
-            this.panelHospitalizacionesPrevias.Size = new System.Drawing.Size(211, 104);
-            this.panelHospitalizacionesPrevias.TabIndex = 3;
-            // 
-            // lbHospitalizacionesPrevias
-            // 
-            this.lbHospitalizacionesPrevias.AutoSize = true;
-            this.lbHospitalizacionesPrevias.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbHospitalizacionesPrevias.Location = new System.Drawing.Point(15, 12);
-            this.lbHospitalizacionesPrevias.Name = "lbHospitalizacionesPrevias";
-            this.lbHospitalizacionesPrevias.Size = new System.Drawing.Size(185, 17);
-            this.lbHospitalizacionesPrevias.TabIndex = 1;
-            this.lbHospitalizacionesPrevias.Text = "HOSPITALIZACIONES PREVIAS";
-            // 
-            // panelTransfusiones
-            // 
-            this.panelTransfusiones.AutoScroll = true;
-            this.panelTransfusiones.Controls.Add(this.lbTransfusiones);
-            this.panelTransfusiones.Location = new System.Drawing.Point(16, 533);
-            this.panelTransfusiones.Name = "panelTransfusiones";
-            this.panelTransfusiones.Size = new System.Drawing.Size(211, 104);
-            this.panelTransfusiones.TabIndex = 3;
-            // 
-            // lbTransfusiones
-            // 
-            this.lbTransfusiones.AutoSize = true;
-            this.lbTransfusiones.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTransfusiones.Location = new System.Drawing.Point(15, 12);
-            this.lbTransfusiones.Name = "lbTransfusiones";
-            this.lbTransfusiones.Size = new System.Drawing.Size(103, 17);
-            this.lbTransfusiones.TabIndex = 1;
-            this.lbTransfusiones.Text = "TRANSFUSIONES";
+            this.lbFracturas.AutoSize = true;
+            this.lbFracturas.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbFracturas.Location = new System.Drawing.Point(15, 12);
+            this.lbFracturas.Name = "lbFracturas";
+            this.lbFracturas.Size = new System.Drawing.Size(78, 17);
+            this.lbFracturas.TabIndex = 1;
+            this.lbFracturas.Text = "FRACTURAS";
             // 
             // panelCirugias
             // 
@@ -980,64 +873,72 @@
             this.lbCirugias.TabIndex = 1;
             this.lbCirugias.Text = "CIRUGIAS";
             // 
-            // panelFracturas
+            // panelTransfusiones
             // 
-            this.panelFracturas.AutoScroll = true;
-            this.panelFracturas.Controls.Add(this.lbFracturas);
-            this.panelFracturas.Location = new System.Drawing.Point(16, 1003);
-            this.panelFracturas.Name = "panelFracturas";
-            this.panelFracturas.Size = new System.Drawing.Size(211, 104);
-            this.panelFracturas.TabIndex = 3;
+            this.panelTransfusiones.AutoScroll = true;
+            this.panelTransfusiones.Controls.Add(this.lbTransfusiones);
+            this.panelTransfusiones.Location = new System.Drawing.Point(16, 533);
+            this.panelTransfusiones.Name = "panelTransfusiones";
+            this.panelTransfusiones.Size = new System.Drawing.Size(211, 104);
+            this.panelTransfusiones.TabIndex = 3;
             // 
-            // lbFracturas
+            // lbTransfusiones
             // 
-            this.lbFracturas.AutoSize = true;
-            this.lbFracturas.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbFracturas.Location = new System.Drawing.Point(15, 12);
-            this.lbFracturas.Name = "lbFracturas";
-            this.lbFracturas.Size = new System.Drawing.Size(78, 17);
-            this.lbFracturas.TabIndex = 1;
-            this.lbFracturas.Text = "FRACTURAS";
+            this.lbTransfusiones.AutoSize = true;
+            this.lbTransfusiones.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTransfusiones.Location = new System.Drawing.Point(15, 12);
+            this.lbTransfusiones.Name = "lbTransfusiones";
+            this.lbTransfusiones.Size = new System.Drawing.Size(103, 17);
+            this.lbTransfusiones.TabIndex = 1;
+            this.lbTransfusiones.Text = "TRANSFUSIONES";
             // 
-            // btnAgregarEnfermedadPrevia
+            // panelHospitalizacionesPrevias
             // 
-            this.btnAgregarEnfermedadPrevia.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarEnfermedadPrevia.Location = new System.Drawing.Point(78, 139);
-            this.btnAgregarEnfermedadPrevia.Name = "btnAgregarEnfermedadPrevia";
-            this.btnAgregarEnfermedadPrevia.Size = new System.Drawing.Size(107, 34);
-            this.btnAgregarEnfermedadPrevia.TabIndex = 5;
-            this.btnAgregarEnfermedadPrevia.Text = "Agregar";
-            this.btnAgregarEnfermedadPrevia.UseVisualStyleBackColor = true;
-            this.btnAgregarEnfermedadPrevia.Click += new System.EventHandler(this.btnAgregarEnfermedadPrevia_Click);
+            this.panelHospitalizacionesPrevias.AutoScroll = true;
+            this.panelHospitalizacionesPrevias.Controls.Add(this.lbHospitalizacionesPrevias);
+            this.panelHospitalizacionesPrevias.Location = new System.Drawing.Point(16, 305);
+            this.panelHospitalizacionesPrevias.Name = "panelHospitalizacionesPrevias";
+            this.panelHospitalizacionesPrevias.Size = new System.Drawing.Size(211, 104);
+            this.panelHospitalizacionesPrevias.TabIndex = 3;
             // 
-            // txtbHospitalizacionPrevia
+            // lbHospitalizacionesPrevias
             // 
-            this.txtbHospitalizacionPrevia.Location = new System.Drawing.Point(18, 343);
-            this.txtbHospitalizacionPrevia.Name = "txtbHospitalizacionPrevia";
-            this.txtbHospitalizacionPrevia.Size = new System.Drawing.Size(230, 21);
-            this.txtbHospitalizacionPrevia.TabIndex = 2;
+            this.lbHospitalizacionesPrevias.AutoSize = true;
+            this.lbHospitalizacionesPrevias.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbHospitalizacionesPrevias.Location = new System.Drawing.Point(15, 12);
+            this.lbHospitalizacionesPrevias.Name = "lbHospitalizacionesPrevias";
+            this.lbHospitalizacionesPrevias.Size = new System.Drawing.Size(185, 17);
+            this.lbHospitalizacionesPrevias.TabIndex = 1;
+            this.lbHospitalizacionesPrevias.Text = "HOSPITALIZACIONES PREVIAS";
             // 
-            // btnQuitarHospitalizacion
+            // panelEnfermedadesPrevias
             // 
-            this.btnQuitarHospitalizacion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuitarHospitalizacion.Location = new System.Drawing.Point(45, 271);
-            this.btnQuitarHospitalizacion.Name = "btnQuitarHospitalizacion";
-            this.btnQuitarHospitalizacion.Size = new System.Drawing.Size(185, 34);
-            this.btnQuitarHospitalizacion.TabIndex = 5;
-            this.btnQuitarHospitalizacion.Text = "Quitar Hospitalización";
-            this.btnQuitarHospitalizacion.UseVisualStyleBackColor = true;
-            this.btnQuitarHospitalizacion.Click += new System.EventHandler(this.btnQuitarHospitalizacion_Click);
+            this.panelEnfermedadesPrevias.AutoScroll = true;
+            this.panelEnfermedadesPrevias.Controls.Add(this.lbEnfermedadesPrevias);
+            this.panelEnfermedadesPrevias.Location = new System.Drawing.Point(16, 78);
+            this.panelEnfermedadesPrevias.Name = "panelEnfermedadesPrevias";
+            this.panelEnfermedadesPrevias.Size = new System.Drawing.Size(211, 104);
+            this.panelEnfermedadesPrevias.TabIndex = 3;
             // 
-            // btnAgregarHospitalizacionPrevia
+            // lbEnfermedadesPrevias
             // 
-            this.btnAgregarHospitalizacionPrevia.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarHospitalizacionPrevia.Location = new System.Drawing.Point(78, 376);
-            this.btnAgregarHospitalizacionPrevia.Name = "btnAgregarHospitalizacionPrevia";
-            this.btnAgregarHospitalizacionPrevia.Size = new System.Drawing.Size(107, 34);
-            this.btnAgregarHospitalizacionPrevia.TabIndex = 5;
-            this.btnAgregarHospitalizacionPrevia.Text = "Agregar";
-            this.btnAgregarHospitalizacionPrevia.UseVisualStyleBackColor = true;
-            this.btnAgregarHospitalizacionPrevia.Click += new System.EventHandler(this.btnAgregarHospitalizacionPrevia_Click);
+            this.lbEnfermedadesPrevias.AutoSize = true;
+            this.lbEnfermedadesPrevias.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbEnfermedadesPrevias.Location = new System.Drawing.Point(15, 12);
+            this.lbEnfermedadesPrevias.Name = "lbEnfermedadesPrevias";
+            this.lbEnfermedadesPrevias.Size = new System.Drawing.Size(160, 17);
+            this.lbEnfermedadesPrevias.TabIndex = 1;
+            this.lbEnfermedadesPrevias.Text = "ENFERMEDADES PREVIAS";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(31, 343);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(185, 17);
+            this.label18.TabIndex = 1;
+            this.label18.Text = "HOSPITALIZACIONES PREVIAS";
             // 
             // label37
             // 
@@ -1049,92 +950,15 @@
             this.label37.TabIndex = 1;
             this.label37.Text = "HOSPITALIZACIONES PREVIAS";
             // 
-            // txtbTransfusion
+            // label17
             // 
-            this.txtbTransfusion.Location = new System.Drawing.Point(18, 575);
-            this.txtbTransfusion.Name = "txtbTransfusion";
-            this.txtbTransfusion.Size = new System.Drawing.Size(230, 21);
-            this.txtbTransfusion.TabIndex = 2;
-            // 
-            // btnQuitarTransfusion
-            // 
-            this.btnQuitarTransfusion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuitarTransfusion.Location = new System.Drawing.Point(51, 493);
-            this.btnQuitarTransfusion.Name = "btnQuitarTransfusion";
-            this.btnQuitarTransfusion.Size = new System.Drawing.Size(167, 34);
-            this.btnQuitarTransfusion.TabIndex = 5;
-            this.btnQuitarTransfusion.Text = "Quitar Transfusion";
-            this.btnQuitarTransfusion.UseVisualStyleBackColor = true;
-            this.btnQuitarTransfusion.Click += new System.EventHandler(this.btnQuitarTransfusion_Click);
-            // 
-            // btnAgregarTransfusion
-            // 
-            this.btnAgregarTransfusion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarTransfusion.Location = new System.Drawing.Point(78, 608);
-            this.btnAgregarTransfusion.Name = "btnAgregarTransfusion";
-            this.btnAgregarTransfusion.Size = new System.Drawing.Size(107, 34);
-            this.btnAgregarTransfusion.TabIndex = 5;
-            this.btnAgregarTransfusion.Text = "Agregar";
-            this.btnAgregarTransfusion.UseVisualStyleBackColor = true;
-            this.btnAgregarTransfusion.Click += new System.EventHandler(this.btnAgregarTransfusion_Click);
-            // 
-            // txtbCirugia
-            // 
-            this.txtbCirugia.Location = new System.Drawing.Point(18, 794);
-            this.txtbCirugia.Name = "txtbCirugia";
-            this.txtbCirugia.Size = new System.Drawing.Size(230, 21);
-            this.txtbCirugia.TabIndex = 2;
-            // 
-            // btnQuitarCirugia
-            // 
-            this.btnQuitarCirugia.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuitarCirugia.Location = new System.Drawing.Point(51, 712);
-            this.btnQuitarCirugia.Name = "btnQuitarCirugia";
-            this.btnQuitarCirugia.Size = new System.Drawing.Size(167, 34);
-            this.btnQuitarCirugia.TabIndex = 5;
-            this.btnQuitarCirugia.Text = "Quitar Cirugia";
-            this.btnQuitarCirugia.UseVisualStyleBackColor = true;
-            this.btnQuitarCirugia.Click += new System.EventHandler(this.btnQuitarCirugia_Click);
-            // 
-            // btnAgregarCirugia
-            // 
-            this.btnAgregarCirugia.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarCirugia.Location = new System.Drawing.Point(78, 827);
-            this.btnAgregarCirugia.Name = "btnAgregarCirugia";
-            this.btnAgregarCirugia.Size = new System.Drawing.Size(107, 34);
-            this.btnAgregarCirugia.TabIndex = 5;
-            this.btnAgregarCirugia.Text = "Agregar";
-            this.btnAgregarCirugia.UseVisualStyleBackColor = true;
-            this.btnAgregarCirugia.Click += new System.EventHandler(this.btnAgregarCirugia_Click);
-            // 
-            // txtbFractura
-            // 
-            this.txtbFractura.Location = new System.Drawing.Point(18, 1033);
-            this.txtbFractura.Name = "txtbFractura";
-            this.txtbFractura.Size = new System.Drawing.Size(230, 21);
-            this.txtbFractura.TabIndex = 2;
-            // 
-            // btnQuitarFractura
-            // 
-            this.btnQuitarFractura.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuitarFractura.Location = new System.Drawing.Point(51, 951);
-            this.btnQuitarFractura.Name = "btnQuitarFractura";
-            this.btnQuitarFractura.Size = new System.Drawing.Size(167, 34);
-            this.btnQuitarFractura.TabIndex = 5;
-            this.btnQuitarFractura.Text = "Quitar Fratura";
-            this.btnQuitarFractura.UseVisualStyleBackColor = true;
-            this.btnQuitarFractura.Click += new System.EventHandler(this.btnQuitarFractura_Click);
-            // 
-            // btnAgregarFracuras
-            // 
-            this.btnAgregarFracuras.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarFracuras.Location = new System.Drawing.Point(78, 1066);
-            this.btnAgregarFracuras.Name = "btnAgregarFracuras";
-            this.btnAgregarFracuras.Size = new System.Drawing.Size(107, 34);
-            this.btnAgregarFracuras.TabIndex = 5;
-            this.btnAgregarFracuras.Text = "Agregar";
-            this.btnAgregarFracuras.UseVisualStyleBackColor = true;
-            this.btnAgregarFracuras.Click += new System.EventHandler(this.btnAgregarFracuras_Click);
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(30, 33);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(160, 17);
+            this.label17.TabIndex = 1;
+            this.label17.Text = "ENFERMEDADES PREVIAS";
             // 
             // panelAntecedentesPersonalesPatologicos
             // 
@@ -1159,12 +983,192 @@
             this.panelAntecedentesPersonalesPatologicos.Size = new System.Drawing.Size(266, 1121);
             this.panelAntecedentesPersonalesPatologicos.TabIndex = 6;
             // 
+            // btnAgregarFracuras
+            // 
+            this.btnAgregarFracuras.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarFracuras.Location = new System.Drawing.Point(78, 1066);
+            this.btnAgregarFracuras.Name = "btnAgregarFracuras";
+            this.btnAgregarFracuras.Size = new System.Drawing.Size(107, 34);
+            this.btnAgregarFracuras.TabIndex = 5;
+            this.btnAgregarFracuras.Text = "Agregar";
+            this.btnAgregarFracuras.UseVisualStyleBackColor = true;
+            this.btnAgregarFracuras.Click += new System.EventHandler(this.btnAgregarFracuras_Click);
+            // 
+            // btnQuitarEnfermedadPrevia
+            // 
+            this.btnQuitarEnfermedadPrevia.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuitarEnfermedadPrevia.Location = new System.Drawing.Point(51, 24);
+            this.btnQuitarEnfermedadPrevia.Name = "btnQuitarEnfermedadPrevia";
+            this.btnQuitarEnfermedadPrevia.Size = new System.Drawing.Size(167, 34);
+            this.btnQuitarEnfermedadPrevia.TabIndex = 5;
+            this.btnQuitarEnfermedadPrevia.Text = "Quitar Enfermedad";
+            this.btnQuitarEnfermedadPrevia.UseVisualStyleBackColor = true;
+            this.btnQuitarEnfermedadPrevia.Click += new System.EventHandler(this.btnQuitarEnfermedadPrevia_Click);
+            // 
+            // btnAgregarCirugia
+            // 
+            this.btnAgregarCirugia.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarCirugia.Location = new System.Drawing.Point(78, 827);
+            this.btnAgregarCirugia.Name = "btnAgregarCirugia";
+            this.btnAgregarCirugia.Size = new System.Drawing.Size(107, 34);
+            this.btnAgregarCirugia.TabIndex = 5;
+            this.btnAgregarCirugia.Text = "Agregar";
+            this.btnAgregarCirugia.UseVisualStyleBackColor = true;
+            this.btnAgregarCirugia.Click += new System.EventHandler(this.btnAgregarCirugia_Click);
+            // 
+            // txtbEnfermedadPrevia
+            // 
+            this.txtbEnfermedadPrevia.Location = new System.Drawing.Point(18, 106);
+            this.txtbEnfermedadPrevia.Name = "txtbEnfermedadPrevia";
+            this.txtbEnfermedadPrevia.Size = new System.Drawing.Size(230, 21);
+            this.txtbEnfermedadPrevia.TabIndex = 2;
+            // 
+            // btnAgregarTransfusion
+            // 
+            this.btnAgregarTransfusion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarTransfusion.Location = new System.Drawing.Point(78, 608);
+            this.btnAgregarTransfusion.Name = "btnAgregarTransfusion";
+            this.btnAgregarTransfusion.Size = new System.Drawing.Size(107, 34);
+            this.btnAgregarTransfusion.TabIndex = 5;
+            this.btnAgregarTransfusion.Text = "Agregar";
+            this.btnAgregarTransfusion.UseVisualStyleBackColor = true;
+            this.btnAgregarTransfusion.Click += new System.EventHandler(this.btnAgregarTransfusion_Click);
+            // 
+            // txtbHospitalizacionPrevia
+            // 
+            this.txtbHospitalizacionPrevia.Location = new System.Drawing.Point(18, 343);
+            this.txtbHospitalizacionPrevia.Name = "txtbHospitalizacionPrevia";
+            this.txtbHospitalizacionPrevia.Size = new System.Drawing.Size(230, 21);
+            this.txtbHospitalizacionPrevia.TabIndex = 2;
+            // 
+            // btnAgregarHospitalizacionPrevia
+            // 
+            this.btnAgregarHospitalizacionPrevia.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarHospitalizacionPrevia.Location = new System.Drawing.Point(78, 376);
+            this.btnAgregarHospitalizacionPrevia.Name = "btnAgregarHospitalizacionPrevia";
+            this.btnAgregarHospitalizacionPrevia.Size = new System.Drawing.Size(107, 34);
+            this.btnAgregarHospitalizacionPrevia.TabIndex = 5;
+            this.btnAgregarHospitalizacionPrevia.Text = "Agregar";
+            this.btnAgregarHospitalizacionPrevia.UseVisualStyleBackColor = true;
+            this.btnAgregarHospitalizacionPrevia.Click += new System.EventHandler(this.btnAgregarHospitalizacionPrevia_Click);
+            // 
+            // txtbTransfusion
+            // 
+            this.txtbTransfusion.Location = new System.Drawing.Point(18, 575);
+            this.txtbTransfusion.Name = "txtbTransfusion";
+            this.txtbTransfusion.Size = new System.Drawing.Size(230, 21);
+            this.txtbTransfusion.TabIndex = 2;
+            // 
+            // btnAgregarEnfermedadPrevia
+            // 
+            this.btnAgregarEnfermedadPrevia.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarEnfermedadPrevia.Location = new System.Drawing.Point(78, 139);
+            this.btnAgregarEnfermedadPrevia.Name = "btnAgregarEnfermedadPrevia";
+            this.btnAgregarEnfermedadPrevia.Size = new System.Drawing.Size(107, 34);
+            this.btnAgregarEnfermedadPrevia.TabIndex = 5;
+            this.btnAgregarEnfermedadPrevia.Text = "Agregar";
+            this.btnAgregarEnfermedadPrevia.UseVisualStyleBackColor = true;
+            this.btnAgregarEnfermedadPrevia.Click += new System.EventHandler(this.btnAgregarEnfermedadPrevia_Click);
+            // 
+            // txtbCirugia
+            // 
+            this.txtbCirugia.Location = new System.Drawing.Point(18, 794);
+            this.txtbCirugia.Name = "txtbCirugia";
+            this.txtbCirugia.Size = new System.Drawing.Size(230, 21);
+            this.txtbCirugia.TabIndex = 2;
+            // 
+            // btnQuitarFractura
+            // 
+            this.btnQuitarFractura.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuitarFractura.Location = new System.Drawing.Point(51, 951);
+            this.btnQuitarFractura.Name = "btnQuitarFractura";
+            this.btnQuitarFractura.Size = new System.Drawing.Size(167, 34);
+            this.btnQuitarFractura.TabIndex = 5;
+            this.btnQuitarFractura.Text = "Quitar Fratura";
+            this.btnQuitarFractura.UseVisualStyleBackColor = true;
+            this.btnQuitarFractura.Click += new System.EventHandler(this.btnQuitarFractura_Click);
+            // 
+            // txtbFractura
+            // 
+            this.txtbFractura.Location = new System.Drawing.Point(18, 1033);
+            this.txtbFractura.Name = "txtbFractura";
+            this.txtbFractura.Size = new System.Drawing.Size(230, 21);
+            this.txtbFractura.TabIndex = 2;
+            // 
+            // btnQuitarCirugia
+            // 
+            this.btnQuitarCirugia.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuitarCirugia.Location = new System.Drawing.Point(51, 712);
+            this.btnQuitarCirugia.Name = "btnQuitarCirugia";
+            this.btnQuitarCirugia.Size = new System.Drawing.Size(167, 34);
+            this.btnQuitarCirugia.TabIndex = 5;
+            this.btnQuitarCirugia.Text = "Quitar Cirugia";
+            this.btnQuitarCirugia.UseVisualStyleBackColor = true;
+            this.btnQuitarCirugia.Click += new System.EventHandler(this.btnQuitarCirugia_Click);
+            // 
+            // btnQuitarHospitalizacion
+            // 
+            this.btnQuitarHospitalizacion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuitarHospitalizacion.Location = new System.Drawing.Point(45, 271);
+            this.btnQuitarHospitalizacion.Name = "btnQuitarHospitalizacion";
+            this.btnQuitarHospitalizacion.Size = new System.Drawing.Size(185, 34);
+            this.btnQuitarHospitalizacion.TabIndex = 5;
+            this.btnQuitarHospitalizacion.Text = "Quitar Hospitalización";
+            this.btnQuitarHospitalizacion.UseVisualStyleBackColor = true;
+            this.btnQuitarHospitalizacion.Click += new System.EventHandler(this.btnQuitarHospitalizacion_Click);
+            // 
+            // btnQuitarTransfusion
+            // 
+            this.btnQuitarTransfusion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuitarTransfusion.Location = new System.Drawing.Point(51, 493);
+            this.btnQuitarTransfusion.Name = "btnQuitarTransfusion";
+            this.btnQuitarTransfusion.Size = new System.Drawing.Size(167, 34);
+            this.btnQuitarTransfusion.TabIndex = 5;
+            this.btnQuitarTransfusion.Text = "Quitar Transfusion";
+            this.btnQuitarTransfusion.UseVisualStyleBackColor = true;
+            this.btnQuitarTransfusion.Click += new System.EventHandler(this.btnQuitarTransfusion_Click);
+            // 
+            // label35
+            // 
+            this.label35.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(1351, 75);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(174, 19);
+            this.label35.TabIndex = 1;
+            this.label35.Text = "Actulizar información";
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnActualizar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizar.Location = new System.Drawing.Point(1395, 121);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(92, 34);
+            this.btnActualizar.TabIndex = 4;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
+            // label36
+            // 
+            this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(924, 75);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(291, 19);
+            this.label36.TabIndex = 1;
+            this.label36.Text = "Desbloquear/Bloquear Modificación";
+            // 
             // btnBloquear
             // 
+            this.btnBloquear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnBloquear.BackgroundImage = global::PantallaExpediente.Properties.Resources.candado;
             this.btnBloquear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnBloquear.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBloquear.Location = new System.Drawing.Point(1052, 110);
+            this.btnBloquear.Location = new System.Drawing.Point(1035, 110);
             this.btnBloquear.Name = "btnBloquear";
             this.btnBloquear.Size = new System.Drawing.Size(50, 48);
             this.btnBloquear.TabIndex = 4;
@@ -1192,9 +1196,9 @@
             this.label34.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.Location = new System.Drawing.Point(30, 310);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(115, 17);
+            this.label34.Size = new System.Drawing.Size(120, 17);
             this.label34.TabIndex = 1;
-            this.label34.Text = "PRESIÓN ARERIAL";
+            this.label34.Text = "PRESIÓN ARTERIAL";
             // 
             // label33
             // 
@@ -1355,20 +1359,20 @@
             this.panel8.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.panelAntecedentesHeredofamiliares.ResumeLayout(false);
             this.panelAntecedentesHeredofamiliares.PerformLayout();
-            this.panelEnfermedadesPrevias.ResumeLayout(false);
-            this.panelEnfermedadesPrevias.PerformLayout();
-            this.panelHospitalizacionesPrevias.ResumeLayout(false);
-            this.panelHospitalizacionesPrevias.PerformLayout();
-            this.panelTransfusiones.ResumeLayout(false);
-            this.panelTransfusiones.PerformLayout();
-            this.panelCirugias.ResumeLayout(false);
-            this.panelCirugias.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panelFracturas.ResumeLayout(false);
             this.panelFracturas.PerformLayout();
+            this.panelCirugias.ResumeLayout(false);
+            this.panelCirugias.PerformLayout();
+            this.panelTransfusiones.ResumeLayout(false);
+            this.panelTransfusiones.PerformLayout();
+            this.panelHospitalizacionesPrevias.ResumeLayout(false);
+            this.panelHospitalizacionesPrevias.PerformLayout();
+            this.panelEnfermedadesPrevias.ResumeLayout(false);
+            this.panelEnfermedadesPrevias.PerformLayout();
             this.panelAntecedentesPersonalesPatologicos.ResumeLayout(false);
             this.panelAntecedentesPersonalesPatologicos.PerformLayout();
             this.panel5.ResumeLayout(false);

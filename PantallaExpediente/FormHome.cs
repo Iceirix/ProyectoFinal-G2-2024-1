@@ -11,7 +11,7 @@ namespace PantallaExpediente
 
         private void btnReservar_Click(object sender, System.EventArgs e)
         {
-            MessageBox.Show("Cita reservada");
+            MessageBox.Show("Su solicitud ha sido procesada, se enviarán los detalles al correo registrado.");
         }
     }
 }

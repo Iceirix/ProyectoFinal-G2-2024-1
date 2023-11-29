@@ -11,6 +11,7 @@ namespace InicioDeSesion
         public FormRegistrarse()
         {
             InitializeComponent();
+            
         }
 
         private void btnRegistrarse_Click(object sender, EventArgs e)
@@ -84,5 +85,10 @@ namespace InicioDeSesion
             lbLinea4.Location = new System.Drawing.Point(57, 512);
         }
         #endregion
+
+        private void FormRegistrarse_Enter(object sender, EventArgs e)
+        {
+            txtbEmail.Focus();
+        }
     }
 }

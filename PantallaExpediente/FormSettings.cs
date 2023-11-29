@@ -13,7 +13,11 @@ namespace PantallaExpediente
             InitializeComponent();
             this.paciente = paciente;
             this.formPadre = formPadre;
-            cargarInfo();
+            if (paciente != null )
+            {
+                cargarInfo();
+            }
+            
             BloquearDatos();
 
         }
@@ -92,69 +96,80 @@ namespace PantallaExpediente
 
         private void btnActualizar_Click(object sender, System.EventArgs e)
         {
-            paciente.Altura = float.Parse(txtbAltura.Text);
-            paciente.Peso = float.Parse(txtbPeso.Text);
-            paciente.Temperatura = float.Parse(txtbTemperatura.Text);
-            paciente.FrecuenciaRespiratoria = float.Parse(txtbFrecRespiratoria.Text);
-            paciente.FrecuenciaCardiaca = float.Parse(txtbFrecCardiaca.Text);
-            paciente.PresionArterial = txtbPresionArterial.Text;
+            try
+            {
+                paciente.Altura = float.Parse(txtbAltura.Text);
+                paciente.Peso = float.Parse(txtbPeso.Text);
+                paciente.Temperatura = float.Parse(txtbTemperatura.Text);
+                paciente.FrecuenciaRespiratoria = float.Parse(txtbFrecRespiratoria.Text);
+                paciente.FrecuenciaCardiaca = float.Parse(txtbFrecCardiaca.Text);
+                paciente.PresionArterial = txtbPresionArterial.Text;
 
-            paciente.Nombre = txtbNombre.Text;
-            paciente.Sexo = txtbSexo.Text;
-            paciente.DiaNacimiento = byte.Parse(txtbDia.Text);
-            paciente.MesNacimiento = byte.Parse(txtbMes.Text);
-            paciente.AñoNacimiento = int.Parse(txtbAño.Text);
-            paciente.Edad = byte.Parse(txtbEdad.Text);
-            paciente.Telefono = txtbTelefono.Text;
-            paciente.Email = txtbEmail.Text;
-            paciente.Calle = txtbCalle.Text;
-            paciente.Delegacion = txtbDelegacion.Text;
-            paciente.Cp= txtbCP.Text;
+                paciente.Nombre = txtbNombre.Text;
+                paciente.Sexo = txtbSexo.Text;
+                paciente.DiaNacimiento = byte.Parse(txtbDia.Text);
+                paciente.MesNacimiento = byte.Parse(txtbMes.Text);
+                paciente.AñoNacimiento = int.Parse(txtbAño.Text);
+                paciente.Edad = byte.Parse(txtbEdad.Text);
+                paciente.Telefono = txtbTelefono.Text;
+                paciente.Email = txtbEmail.Text;
+                paciente.Calle = txtbCalle.Text;
+                paciente.Delegacion = txtbDelegacion.Text;
+                paciente.Cp = txtbCP.Text;
 
-            if (rdbPolenSi.Checked)
-            {
-                paciente.Polen = true;
-            }
-            else if (rdbPolenNo.Checked)
-            {
-                paciente.Polen = false;
-            }
-            if (rdbAcarosSi.Checked)
-            {
-                paciente.Acaros = true;
-            }
-            else if (rdbAcarosNo.Checked)
-            {
-                paciente.Acaros = false;
-            }
-            if (rdbLatexSi.Checked)
-            {
-                paciente.Latex = true;
-            }
-            else if (rdbLatexNo.Checked)
-            {
-                paciente.Latex = false;
-            }
-            if (rdbMedicamentoSi.Checked)
-            {
-                paciente.Medicamento = true;
-                paciente.NombreMedicamento = txtbMedicamento.Text;
-            }
-            else if (rdbMedicamentoNo.Checked)
-            {
-                paciente.Medicamento = false;
-            }
-            if (rdbAlimentoSi.Checked)
-            {
-                paciente.Alimento = true;
-                paciente.NombreAlimento = txtbAlimento.Text;
-            }
-            else if (rdbAlimentoNo.Checked)
-            {
-                paciente.Alimento = false;
-            }
+                if (rdbPolenSi.Checked)
+                {
+                    paciente.Polen = true;
+                }
+                else if (rdbPolenNo.Checked)
+                {
+                    paciente.Polen = false;
+                }
+                if (rdbAcarosSi.Checked)
+                {
+                    paciente.Acaros = true;
+                }
+                else if (rdbAcarosNo.Checked)
+                {
+                    paciente.Acaros = false;
+                }
+                if (rdbLatexSi.Checked)
+                {
+                    paciente.Latex = true;
+                }
+                else if (rdbLatexNo.Checked)
+                {
+                    paciente.Latex = false;
+                }
+                if (rdbMedicamentoSi.Checked)
+                {
+                    paciente.Medicamento = true;
+                    paciente.NombreMedicamento = txtbMedicamento.Text;
+                }
+                else if (rdbMedicamentoNo.Checked)
+                {
+                    paciente.Medicamento = false;
+                }
+                if (rdbAlimentoSi.Checked)
+                {
+                    paciente.Alimento = true;
+                    paciente.NombreAlimento = txtbAlimento.Text;
+                }
+                else if (rdbAlimentoNo.Checked)
+                {
+                    paciente.Alimento = false;
+                }
 
-            formPadre.actualizarNombre(paciente.Nombre);
+                if (!formPadre.Medico)
+                    formPadre.actualizarNombre(paciente.Nombre);
+                if (formPadre.Medico)
+                    formPadre.actualizarListBox();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message);
+            }
+            
         }
 
         private void btnBloquear_Click(object sender, System.EventArgs e)

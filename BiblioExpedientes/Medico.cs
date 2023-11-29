@@ -6,13 +6,18 @@ namespace BiblioExpedientes
     public class Medico : Usuario
     {
         #region atributos
-        private string Nombre;
+        private string nombre;
         #endregion
 
-        public Medico(string user, string password)
+        public string Nombre { get => nombre; set => nombre = value; }
+
+        public Medico(string user, string password, string nombre)
         {
             User = user;
             Password = password;
+            Nombre = nombre;
         }
+
+        
     }
 }

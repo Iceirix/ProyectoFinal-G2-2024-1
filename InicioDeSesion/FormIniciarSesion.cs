@@ -23,11 +23,20 @@ namespace InicioDeSesion
         }
         private void CargarUsuarios()
         {
-            usuarios.Add(new Paciente("Maria", "maria123","@"));
-            usuarios.Add(new Paciente("Carlos", "carlos123","@"));
-            usuarios.Add(new Paciente("Laura", "laura123","@"));
+            usuarios.Add(new Paciente("Maria", "maria123", "@"));
+            usuarios.Add(new Paciente("Carlos", "carlos123", "@"));
+            usuarios.Add(new Paciente("Laura", "laura123", "@"));
             usuarios.Add(new Paciente("Luis", "luis123", "@"));
-            usuarios.Add(new Paciente("Alejandro", "alejandro123","@"));
+            usuarios.Add(new Paciente("Alejandro", "alejandro123", "@"));
+            usuarios.Add(new Paciente("Isabella", "isabella123", "@"));
+            usuarios.Add(new Paciente("Aitana", "aitana123", "@"));
+            usuarios.Add(new Paciente("Alfredo", "alfredo123", "@"));
+            usuarios.Add(new Paciente("Pablo", "pablo123", "@"));
+            usuarios.Add(new Paciente("Samantha", "samantha123", "@"));
+
+            usuarios.Add(new Medico("Pedro", "pedro123", "Dr. Pedro"));
+            usuarios.Add(new Medico("Fabiola", "fabiola123", "Dra. Fabiola"));
+            usuarios.Add(new Medico("Armando", "armando123", "Dr. Armando"));
         }
 
         private void btnIniciar_Click(object sender, EventArgs e)
@@ -41,10 +50,23 @@ namespace InicioDeSesion
                     limpiarTxtbDisplay();
                     if (formPadre == null)
                     {
-                        formPadre = new FormPadre(this, miUsuario);
+                        formPadre = new FormPadre(this);
                     }
-                    formPadre.verificarUsuario(miUsuario);
+                    if (miUsuario is Paciente)
+                    {
+                        formPadre.verificarUsuario(miUsuario);
+                        
+                    }
+                    else if (miUsuario is Medico)
+                    {
+                        Medico medico = (Medico)miUsuario;
+                        formPadre.actualizarNombre(medico.Nombre);
+                        formPadre.visibilidadBtnPacientes();
+                        formPadre.actualizarListBox();
+                        formPadre.Medico = true;
+                    }
                     formPadre.openChildForm(new FormHome());
+                    
                     formPadre.Show();
                     a = 1;
                     Hide();
